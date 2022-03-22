@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <title>Payment</title>
+</head>
+<body class="bg-black text-white font-sans">
+
+    <div class="content">
+        <div class="logo grid place-content-center">
+            <img src="../src/img/logo-bcard.png" alt="" width="75" height="75">
+        </div>
+
+        <p class="text-2xl font-bold text-center">Procéder au paiement</p>
+
+        <p class="text-center mt-5">Avez vous un code de réduction ou d'affiliation? Si non, cliquez sur "Confirmer ma commande"</p>
+
+        <div class="grid place-content-center mt-5">
+            <form action="" method="post" class="flex flex-col">
+                <input type="text" placeholder="Ex: 189CVD758W" class="py-2">
+                <button type="submit" class="px-20 py-2 bg-white text-black mt-5 font-semibold">Confirmer ma commande <br class="sm:hidden"> (20.000FCFA)</button>
+            </form>
+        </div>
+
+        <p class="text-center mt-5">En continuant cet achat, vous vous engagez à respecter
+            <a href="#" class="text-blue-600">nos conditions générales de ventes</a>
+        </p>
+
+        <div class="flex justify-center items-center mt-5">
+            <svg class="bi" width="30" height="30" fill="currentColor">
+                <use xlink:href="../bootstrap-icons.svg#file-lock-fill" />
+            </svg>
+            <p>Paiement sécurisé</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -21,11 +21,16 @@
 .order-mobile{
     display: none;
 }
-/* @media screen and (max-width: 1146px) {
-    .onflyer{
-        bottom: 80px;
+@media screen and (max-width: 424px) {
+    .details-form{
+        width: 300px;
     }
-} */
+}
+@media screen and (max-width: 304px) {
+    .details-form{
+        width: 250px;
+    }
+}
 @media screen and (max-width: 936px) {
     .order{
         display: none;

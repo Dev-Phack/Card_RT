@@ -57,7 +57,7 @@
 }
 
 @media screen and (max-width: 1044px) {
-    .qr{
+    .qr-editCard{
         flex-direction: column-reverse
     }
     .edit-names{

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="../src/css/tailwind.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <title>Scan</title>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+    <div class="content">
+
+        <div class="logo grid place-content-center">
+            <img src="../src/img/logo-bcard.png" alt="" width="75" height="75">
+        </div>
+
+        <p class="font-bold text-center text-2xl"> Editer votre carte </p>
+
+        <div class="qr w-3/4 sm:w-2/4 border border-white m-auto flex justify-between items-center py-24 px-16 mt-5">
+            
+            <div class="">
+                <div class="edit-names">
+                    <input type="text" name="" id="" placeholder="NOM" class="border border-white border-dashed bg-black p-2">
+                    <input type="text" name="" id="" placeholder="Prénom(s)" class="border border-white border-dashed bg-black p-2">
+                </div>
+                <div class="mt-3 flex space-x-3">
+                    <label for="" class="font-semibold">yail.cards/</label>
+                    <input type="text" name="" id="" placeholder="username" class="border border-white border-dashed bg-black p-2 w-full">
+                </div>
+            </div>
+            
+            <div>
+                <svg class="bi qr-edit" width="120" height="120" fill="currentColor">
+                    <use xlink:href="../bootstrap-icons.svg#qr-code" />
+                </svg>
+            </div>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center mt-3">
+            <button class="bg-white text-black py-2 px-3 mt-3">Ajouter les détails de la livraison</button>
+            <a href="#" class="underline mt-3">Contactez nous</a>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

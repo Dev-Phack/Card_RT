@@ -40,3 +40,29 @@
     }
 }
 
+@media screen and (max-width: 1310px) {
+    .qr-edit{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 1264px) {
+    .edit-names{
+        display: flex;
+        flex-direction: column;
+    }
+    .edit-names > input {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .qr{
+        flex-direction: column-reverse
+    }
+    .edit-names{
+        margin-top: 25px;
+    }
+}
+
+
